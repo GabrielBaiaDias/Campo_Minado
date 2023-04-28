@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    user-select: none;
+}
+
+body {
+    background-color: #9d5600b1;
+}
+
+header {
+    display: block;
+    background-color: #794300;
+    padding: 1.6%;
+    font-family: 'Dosis';
+}
+
+table {
+    height: 650px;
+    width: 650px;
+
+    margin: auto;
+    border-spacing: 0;
+    border: 25px solid #54ac28;
+    background-color: #54ac28;
+
+    position: absolute;
+    left: 50%;
+    top: 54.5%;
+    transform: translate(-50%, -50%);
+
+}
+
+td {
+    width: 6%;
+    height: 6%;
+
+    background-color: #7bcc53;
+    border: 3px solid #54ac28;
+    cursor: pointer;
+    text-align: center;
+    font-size: 15px;
+    font-family: 'Dosis';
+    font-weight: bold;
+}
+
+td:hover {
+    background-color: #9cf072;
+}
+
+.bandeirinha {
+    background-image: url('bandeira.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bomba {
+    background-image: url('bomba.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.aberto {
+    background-color: #deffcd;
+}
+
+.inputBtn {
+    background-color: #794300;
+    color: white;
+    border: none;
+    border: .5px solid white;
+    transform: translateX(70px);
+}
+
+.labelBomba {
+
+    color: white;
+    position: absolute;
+    top: 25px;
+}
+
+#inputNum {
+    width: 40px;
+    border: none;
+}
+
+.inputBtn,
+#inputNum {
+    padding: 5px;
+    font-family: 'Dosis';
+    display: inline-block;
+    position: absolute;
+    top: 50px;
+    outline: none;
+
+}
